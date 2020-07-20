@@ -1,21 +1,13 @@
 package com.example.roomwordsample.repository
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.lifecycle.LiveData
 import com.example.roomwordsample.domain.Word
 
+class WordRepository(private val wordDao: WordDao) {
 
-@Dao
-interface WordRepository {
+    val allWords: LiveData<List<Word>> = wordDao.getAllOrderByWordAsc()
 
-    @Query("SELECT * FROM WORD ORDER BY WORD ASC")
-    fun getAllOrderByWordAsc(): List<Word>
-
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insertWord(word: Word)
-
-    @Query("DELETE FROM WORD")
-    suspend fun deleteAll()
+    suspend fun insert(word: Word) {
+        wordDao.insertWord(word)
+    }
 }

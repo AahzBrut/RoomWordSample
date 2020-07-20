@@ -1,0 +1,21 @@
+
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+y
+Iapp/src/main/java/com/example/roomwordsample/repository/WordRepository.kt,e\a\eab74a3ccb4c34eac2937c1846db6c13792c3035
+k
+;app/src/main/java/com/example/roomwordsample/domain/Word.kt,8\f\8fe7d54b57fc7819255dd883feeecea965bc6116
+r
+Bapp/src/main/java/com/example/roomwordsample/repository/WordDao.kt,0\5\055efb27f31807a63859cc2e74b6601da49a0fde
+w
+Gapp/src/main/java/com/example/roomwordsample/viewmodel/WordViewModel.kt,3\d\3daeaee3cf3bd5388700077ac684a51348922a45
+{
+Kapp/src/main/java/com/example/roomwordsample/repository/WordRoomDatabase.kt,d\e\de8c477f40c0a654ffdcc5a9240d7ada2bba1b61
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+o
+?app/src/main/java/com/example/roomwordsample/NewWordActivity.kt,9\1\91ac6418962f4a6e97dfde5a9c7d1a54763db005
+t
+Dapp/src/main/java/com/example/roomwordsample/view/WordListAdapter.kt,a\8\a8e7526e3ad5f16fe82855e5e04ef1038c350cce
+l
+<app/src/main/java/com/example/roomwordsample/MainActivity.kt,4\9\49704f71a9c83dae4cffba8bd9df78279e140e8d
